@@ -83,13 +83,7 @@ function operatorHaandler(e){
         <button className='numbers' onClick={inputNum} value={"."}> ,</button>
         <button className='operator' onClick={calculate}> =</button>
     </div>
-    <div className='socialLinks'>
-        <ul>
-            <li>oi</li>
-            <li>oi</li>
-            <li>oi</li>
-        </ul>
-    </div>
+    
     </Container>
     </div>
   )
