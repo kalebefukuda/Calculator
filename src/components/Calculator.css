@@ -1,8 +1,6 @@
 body{
-    background: #c0c0aa;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #1cefff, #c0c0aa);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #1cefff, #c0c0aa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: rgb(255,181,77);
+background: linear-gradient(90deg, rgba(255,181,77,1) 0%, rgba(88,88,88,1) 59%, rgba(127,127,126,1) 100%);
 }
 .calculator-container {
     display: flex;
