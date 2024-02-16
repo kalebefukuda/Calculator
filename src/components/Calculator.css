@@ -69,3 +69,19 @@ li{
     list-style-type: none;
     justify-content: space-between;
 }
+
+@media screen and (max-width: 576px) {
+    .calculator-container {
+        flex-direction: column; 
+        max-width: 100%; 
+        align-items: center; 
+        margin-top: -5rem;
+    }
+    .number-0 {
+        width: 2/3; 
+    }
+    .result {
+        font-size: 3em;
+        text-align: center; 
+    }
+}
